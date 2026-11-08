@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>О бренде — VESTIAIRE</title>
+<meta name="description" content="История и принципы бренда VESTIAIRE">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0c0e'/%3E%3Ctext x='32' y='43' font-size='34' text-anchor='middle' fill='%23c8a15a' font-family='Georgia'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-page="about">
+<div class="tstrip"><div class="tstrip-in"><span>Бесплатная курьерская доставка при заказе от 5 000 ₽</span><span>Промокод STYLE10 — скидка 10%</span><span>Возврат 14 дней по закону</span><span>Одежда, которая слышит город</span><span>Бесплатная курьерская доставка при заказе от 5 000 ₽</span><span>Промокод STYLE10 — скидка 10%</span><span>Возврат 14 дней по закону</span><span>Одежда, которая слышит город</span></div></div>
+<header class="hdr"><div class="container hdr-inner">
+  <a class="logo" href="index.html">VESTIAIRE<i>.</i></a>
+  <nav class="nav"><a href="index.html" class="">Главная</a><a href="catalog.html" class="">Каталог</a><a href="about.html" class="active">О бренде</a><a href="delivery.html" class="">Доставка</a><a href="returns.html" class="">Возврат</a><a href="faq.html" class="">FAQ</a><a href="contacts.html" class="">Контакты</a></nav>
+  <div class="hdr-actions">
+    <button id="search-btn" class="icon-btn" title="Поиск"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+    
+    <a href="favorites.html" class="icon-btn hide-m" title="Избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.7-10-9.2C.4 8.2 2.3 4.5 6 4.5c2.2 0 3.7 1.2 4.6 2.7L12 9l1.4-1.8c.9-1.5 2.4-2.7 4.6-2.7 3.7 0 5.6 3.7 4 7.3C19.5 16.3 12 21 12 21z"/></svg><span id="fav-count" class="badge-dot">0</span></a>
+    <a href="cart.html" class="icon-btn" title="Корзина"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 7h12l1.2 13.2a1.8 1.8 0 0 1-1.8 1.8H6.6a1.8 1.8 0 0 1-1.8-1.8L6 7z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg><span id="cart-count" class="badge-dot">0</span></a>
+    <button class="burger" id="burger-btn" title="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h10"/></svg></button>
+  </div>
+</div></header>
+<div id="mnav" class="mnav">
+  <div class="mnav-head"><span class="logo">VESTIAIRE<i>.</i></span><button id="mnav-close" class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5l14 14M19 5 5 19"/></svg></button></div>
+  <nav><a class="big" href="index.html">Главная</a><a class="big" href="catalog.html">Каталог</a><a class="big" href="about.html">О бренде</a><a class="big" href="delivery.html">Доставка</a><a class="big" href="returns.html">Возврат</a><a class="big" href="faq.html">FAQ</a><a class="big" href="contacts.html">Контакты</a></nav>
+  <div class="mnav-sub">
+    <a href="favorites.html">Избранное</a><a href="cart.html">Корзина</a>
+    
+    <a href="offer.html">Публичная оферта</a><a href="privacy.html">Политика конфиденциальности</a>
+    <a href="contacts.html">Контакты и реквизиты</a>
+  </div>
+</div>
+<div id="search-ov" class="search-ov"><div class="search-box">
+  <div class="search-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="search-in" placeholder="Поиск по каталогу…" autocomplete="off"><button id="search-close" class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5l14 14M19 5 5 19"/></svg></button></div>
+  <div id="search-res"></div>
+</div></div>
+<main>
+
+<section class="container"><div class="about-hero">
+  <div><span class="sec-eyebrow">О бренде</span><h1>Одежда, которая слышит город</h1>
+  <p>Мы шьём маленькими партиями на фабриках в Москве и Иваново, работаем с итальянскими тканями и проверяем каждую вещь вручную перед отправкой. VESTIAIRE — это медленная мода без сезонных распродаж: вещи выходят тиражами и не переиздаются.</p><p>Мы обещаем, что вещь, купленная сегодня, будет актуальна через пять лет: классические лекала, плотные ткани и ремонт в ателье.</p></div>
+  <div class="about-img reveal"><img src="assets/img/vst-about-2.jpg" alt=""></div>
+</div>
+<div class="stats-row reveal"><div><b>120+</b><span>моделей в каталоге</span></div><div><b>2</b><span>фабрики-партнёра</span></div><div><b>9 лет</b><span>на рынке</span></div><div><b>4.9</b><span>оценка покупателей</span></div></div></section>
+<section class="sec tint"><div class="container">
+  <div class="sec-head reveal"><div><span class="sec-eyebrow">Principles</span><h2>На чём стоит бренд</h2><p class="sub">Три принципа, которые мы не нарушаем.</p></div></div>
+  <div class="values" style="grid-template-columns:repeat(3,1fr)"><div class="value-card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><path d="M8.2 7.6 20 18M8.2 16.4 20 6"/></svg><b>Собственный крой</b><p>Лекала разрабатываем в ателье на Тверской, тестируем посадку на реальных людях, а не манекенах.</p></div><div class="value-card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20C4 12 9 6 20 4c0 11-6 16-14 16z"/><path d="M4 20c4-6 8-9 12-11"/></svg><b>Честные материалы</b><p>Итальянская шерсть, натуральный шёлк, кожа растительного дубления. Состав — на этикетке, а не «в описании».</p></div><div class="value-card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2.8 20 6v6c0 5-3.4 8-8 9.2C7.4 20 4 17 4 12V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg><b>Ответственность за вещь</b><p>Подгонка по фигуре, ремонт молний и фурнитуры — мы остаёмся с вашей вещью и после покупки.</p></div></div>
+</div></section>
+<section class="sec"><div class="container">
+  <div class="sec-head reveal"><div><span class="sec-eyebrow">Catalog</span><h2>Каталог</h2><p class="sub">Посмотрите, что уже можно заказать.</p></div><a class="link-arr" href="catalog.html">Смотреть все <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+  <div class="benefits reveal"><div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M1.5 6h13v11h-13zM14.5 10h4l3 3.5V17h-7z"/><circle cx="6" cy="19" r="1.8"/><circle cx="17.5" cy="19" r="1.8"/></svg><div><b>Быстрая доставка</b><span>Курьер по Москве и СПб — от 1–2 дня</span></div></div><div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 12a8 8 0 1 1-2.3-5.6M20 3v5h-5"/></svg><div><b>Возврат 14 дней</b><span>Без вопросов, по закону о защите прав потребителей</span></div></div><div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2.8 20 6v6c0 5-3.4 8-8 9.2C7.4 20 4 17 4 12V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg><div><b>Гарантия и чек</b><span>Каждый заказ с чеком и гарантией</span></div></div><div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19"/></svg><div><b>Удобная оплата</b><span>Банковская карта, СБП, Долями (4 платежа)</span></div></div></div>
+</div></section>
+</main>
+<footer class="ftr"><div class="container">
+  <div class="ftr-cols">
+    <div class="ftr-brand">
+      <span class="logo">VESTIAIRE<i>.</i></span>
+      <p>Авторский бутик одежды из натуральных материалов. Ограниченные партии, честный пошив.</p>
+      <div class="ftr-social"><a href="#" title="Telegram" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m21 4-18 8 5.5 2L10 19l3-3.5L18.5 18z"/><path d="M8.5 14 18 6.5"/></svg></a><a href="#" title="VK" aria-label="VK"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8c1.5 6 5.5 9 10.5 9H19c1 0 1.7-.7 1.2-1.7-.6-1.2-2-2.4-3.4-3.3 1-.2 2.6-.4 3.2-2.3.5-1.5.7-3.7-1-3.7h-3c0 2-.7 4-1.7 4.5C13.5 9 12 6.5 12 6.5z" transform="scale(.86) translate(1.8 1.6)"/><path d="M4 7.5c.8 4.6 3.6 7.6 7.6 8.3"/></svg></a><a href="#" title="Pinterest" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M9 21c1-4 2-8.5 2-8.5m0-1C10.5 9 12 8 13.5 8c2 0 3.2 1.3 3.2 3.2 0 2.6-1.7 4.8-3.9 4.8-1 0-1.8-.6-1.6-1.6"/></svg></a></div>
+      <form data-toast class="ftr-sub"><input type="email" placeholder="E-mail для писем о новинках"><button class="btn btn-p" type="submit">Подписаться</button></form>
+    </div>
+    <div class="ftr-col"><h5>Каталог</h5><a href="catalog.html?cat=outerwear">Верхняя одежда</a><a href="catalog.html?cat=dresses">Платья</a><a href="catalog.html?cat=suits">Костюмы и брюки</a><a href="catalog.html?cat=knit">Трикотаж</a><a href="catalog.html?cat=shirts">Рубашки и блузы</a><a href="catalog.html?cat=access">Сумки и обувь</a></div>
+    <div class="ftr-col"><h5>Покупателям</h5><a href="delivery.html">Доставка и оплата</a><a href="returns.html">Возврат и обмен</a><a href="faq.html">Частые вопросы</a><a href="about.html">О бренде</a><a href="contacts.html">Контакты</a></div>
+    <div class="ftr-col"><h5>Документы</h5><a href="offer.html">Публичная оферта</a><a href="privacy.html">Политика конфиденциальности</a><a href="consent.html">Согласие на обработку ПД</a><a href="contacts.html">Реквизиты</a></div>
+  </div>
+  <div class="ftr-bottom">
+    <span>© 2026 ООО «Вестиар» · ИНН 7704455210 · 1197746543210</span>
+    <div class="pay-list"><span>Банковская карта</span><span>СБП</span><span>Долями (4 платежа)</span><span>При получении</span></div>
+    <span>Цены на сайте носят демонстрационный характер</span>
+  </div>
+</div></footer>
+<div class="cookie" id="cookie"><p>Мы используем cookies для работы корзины и аналитики. Продолжая пользоваться сайтом, вы соглашаетесь с <a href="privacy.html">политикой обработки данных</a>.</p><div class="cookie-row"><button class="btn btn-p" id="cookie-ok">Хорошо</button><a class="btn btn-ghost" href="privacy.html">Подробнее</a></div></div>
+<div class="toast-stack"></div>
+<button class="totop" aria-label="Наверх"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
+<div class="modal" id="quick-modal"><div class="mbox"><button class="mclose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5l14 14M19 5 5 19"/></svg></button><div class="qv"><div class="qv-img"><img src="" alt=""></div><div class="qv-body"></div></div></div></div>
+<div class="modal" id="sizeguide-modal"><div class="mbox"><button class="mclose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  <h3 style="font-size:24px;margin-bottom:6px">Таблица размеров</h3>
+  <p style="color:var(--muted);font-size:14px">Измерения в сантиметрах. Если вы между размерами — берите больший.</p>
+  <table class="sizeguide-tbl"><tr><th>Размер</th><th>Грудь</th><th>Талия</th><th>Бёдра</th></tr>
+  <tr><td>XS</td><td>80–84</td><td>62–66</td><td>88–92</td></tr>
+  <tr><td>S</td><td>84–88</td><td>66–70</td><td>92–96</td></tr>
+  <tr><td>M</td><td>88–92</td><td>70–74</td><td>96–100</td></tr>
+  <tr><td>L</td><td>92–96</td><td>74–78</td><td>100–104</td></tr>
+  <tr><td>XL</td><td>96–102</td><td>78–84</td><td>104–110</td></tr></table>
+</div></div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body></html>
